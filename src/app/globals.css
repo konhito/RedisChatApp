@@ -13,6 +13,9 @@
     --foreground: #ededed;
   }
 }
+input::placeholder {
+  color: white; /* Placeholder text color */
+}
 
 body {
   color: var(--foreground);
