@@ -8,7 +8,8 @@ The Redis Chat App is a modern, real-time messaging application built using Redi
 
 [![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![Tailwind CSS](https://img.shields.io/badge/tailwind_css-38bdf8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
-[![Build Status](https://github.com/konhito/RedisChatApp/actions/workflows/main.yml/badge.svg)](https://github.com/konhito/RedisChatApp/actions/workflows/main.yml)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+![jwt token](http://jwt.io/img/badge-compatible.svg)
 [![GitHub repo size](https://img.shields.io/github/repo-size/konhito/RedisChatApp)](https://github.com/konhito/RedisChatApp)
 
 ## Features
