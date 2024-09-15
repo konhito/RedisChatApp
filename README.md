@@ -1,100 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redis Chat App</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        code {
-            background-color: #eee;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        pre {
-            background-color: #eee;
-            padding: 10px;
-            border-radius: 4px;
-            overflow-x: auto;
-        }
-        .screenshot {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
-</head>
-<body>
+# Redis Chat App
 
-    <h1>Redis Chat App</h1>
-    <p>Redis Chat App is a sleek and modern chat application that allows users to communicate seamlessly using real-time Redis messaging infrastructure.</p>
+![Redis Chat App Logo](https://raw.githubusercontent.com/konhito/RedisChatApp/main/screenshots/sign-in.png)
 
-    <h2>Features</h2>
-    <ul>
-        <li><strong>Real-Time Messaging</strong>: Instant communication with Redis for handling high-speed messaging.</li>
-        <li><strong>Responsive Design</strong>: Optimized for various screen sizes.</li>
-        <li><strong>Email Authentication</strong>: Sign in with email and password support.</li>
-        <li><strong>Secure and Scalable</strong>: Built with security and scalability in mind using Redis as the backend.</li>
-        <li><strong>Modern UI</strong>: Intuitive user interface designed with Tailwind CSS.</li>
-    </ul>
+## Overview
 
-    <h2>Screenshots</h2>
-    <!-- Add screenshots here -->
-    <img src="./screenshots/home-page.png" alt="Home Page" class="screenshot">
-    <img src="./screenshots/sign-in.png" alt="Sign In" class="screenshot">
+The Redis Chat App is a modern, real-time messaging application built using Redis for fast and scalable messaging. It features a sleek and responsive design, making it easy to use on any device.
 
-    <h2>Tech Stack</h2>
-    <ul>
-        <li><strong>Frontend</strong>: Next.js, React, Tailwind CSS</li>
-        <li><strong>Backend</strong>: Redis (for messaging infrastructure)</li>
-        <li><strong>Authentication</strong>: Custom email authentication</li>
-        <li><strong>UI Components</strong>: Custom Input, Button components</li>
-    </ul>
+[![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![Tailwind CSS](https://img.shields.io/badge/tailwind_css-38bdf8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![Build Status](https://github.com/konhito/RedisChatApp/actions/workflows/main.yml/badge.svg)](https://github.com/konhito/RedisChatApp/actions/workflows/main.yml)
+[![GitHub repo size](https://img.shields.io/github/repo-size/konhito/RedisChatApp)](https://github.com/konhito/RedisChatApp)
 
-    <h2>Installation</h2>
-    <p>Follow these instructions to set up and run the project locally.</p>
+## Features
 
-    <h3>Prerequisites</h3>
-    <ul>
-        <li>Node.js (v14+)</li>
-        <li>Redis Server (v6+)</li>
-    </ul>
+- **Real-Time Messaging**: Instant communication using Redis.
+- **Responsive Design**: Optimized for various screen sizes.
+- **Email Authentication**: Secure sign-in with email and password.
+- **Modern UI**: Built with Tailwind CSS for a sleek look.
 
-    <h3>Setup</h3>
-    <ol>
-        <li>Clone the repository:</li>
-        <pre><code>git clone https://github.com/your-username/redis-chat-app.git</code></pre>
-        <li>Navigate to the project folder:</li>
-        <pre><code>cd redis-chat-app</code></pre>
-        <li>Install dependencies:</li>
-        <pre><code>npm install</code></pre>
-        <li>Run Redis server:</li>
-        <pre><code>redis-server</code></pre>
-        <li>Start the development server:</li>
-        <pre><code>npm run dev</code></pre>
-        <li>Visit <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> in your browser to access the application.</li>
-    </ol>
+## Table of Contents
 
-    <h2>Usage</h2>
-    <ol>
-        <li>Sign in with your email to start chatting.</li>
-        <li>After signing in, enter your password to access the chat features.</li>
-        <li>Use the app for real-time messaging and experience seamless communication.</li>
-    </ol>
+- [Overview](#overview)
+- [Features](#features)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the App Locally](#running-the-app-locally)
+  - [Testing](#testing)
+- [Contributing](#contributing)
+  - [Creating a Pull Request](#creating-a-pull-request)
+- [License](#license)
+- [Screenshots](#screenshots)
+- [Authors](#authors)
 
-    <h2>Contributing</h2>
-    <p>Contributions are welcome! Please open an issue or submit a pull request.</p>
+## Built With
 
-    <h2>License</h2>
-    <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+- [Next.js](https://nextjs.org)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Redis](https://redis.io)
 
-</body>
-</html>
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/en/download/) (v14+)
+- [Redis Server](https://redis.io/download) (v6+)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/konhito/RedisChatApp.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd RedisChatApp
+   ```
+
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+4. **Start Redis server:**
+
+   ```bash
+   redis-server
+   ```
+
+5. **Start the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+6. **Open your browser and go to:**
+
+   [http://localhost:3000](http://localhost:3000)
+
+### Running the App Locally
+
+To run the app locally, follow the installation steps and start the development server as shown above.
+
+### Testing
+
+To run tests, use the following command:
+
+```bash
+npm test
+```
