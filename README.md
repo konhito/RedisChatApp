@@ -2,7 +2,6 @@
 
 ![Demo App](/public/screenshot-for-readme.png)
 
-[Video Tutorial on Youtube](https://youtu.be/0Kzd4k1YuCA)
 
 About This Course:
 
@@ -19,7 +18,7 @@ About This Course:
 -   💙 Awesome Landing Page
 -   🌐 Deployment
 -   🚀 And Many More Cool Features
--   ✅ This is a lot of work. Support my work by subscribing to the [Channel](https://www.youtube.com/@asaprogrammer_)
+
 
 ### Setup .env file
 
