@@ -59,22 +59,4 @@ npm install
 npm run dev
 ```
 
-## `Timestamps` for your convenience:
-
--   00:00:00 - App Showcase
--   00:01:52 - Project Setup
--   00:14:40 - Auth Page Design
--   00:26:40 - Preferences Tab
--   00:46:20 - Chat Layout Design
--   02:09:00 - Satisfying Typing Effect (easy)
--   02:15:00 - Authentication
--   02:23:00 - Auth Callback and Redis
--   02:54:50 - Fetch Users for Sidebar
--   03:18:30 - SEND Messages
--   03:41:00 - GET Messages
--   03:53:30 - SEND Images
--   04:08:05 - Realtime Messages
--   04:31:50 - Deployment
--   04:38:10 - Testing in Production and Bye!
-
 ### I'll see you in the next one! 🚀
